@@ -1,0 +1,25 @@
+{
+    "name": "hexlet/code",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        },
+        "files": [
+            "src/Differ.php"
+        ]
+    },
+    "bin": [
+        "bin/gendiff"
+    ],
+    "authors": [
+        {
+            "name": "Vladimir Bun",
+            "email": "qwelp@mail.ru"
+        }
+    ],
+    "require": {
+        "docopt/docopt": "^1.0",
+        "squizlabs/php_codesniffer": "*",
+        "phpstan/phpstan": "^1.4"
+    }
+}
