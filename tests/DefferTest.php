@@ -2,7 +2,7 @@
 
 namespace Php\Package\Tests;
 
-use function Differ\Differ\genDiff;
+use PHPUnit\Framework\TestCase;
 
 class DefferTest extends TestCase
 {
